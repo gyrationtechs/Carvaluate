@@ -1,0 +1,234 @@
+/* Defaults */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.nav-bar {
+    background: #000 !important;
+    padding: 12px 0;
+    color: #fff;
+}
+
+.nav-bar li {
+    margin-right: 16px;
+}
+
+.brand-btn {
+    padding: 8px 24px !important;
+    color: #fff;
+    border-radius: 10px;
+    background: rgba(179,33,46,1);
+}
+
+/* body */
+.contact {
+    position: relative;
+    width: 100%;
+    padding: 150px 0;
+    background: #ebebeb;
+}
+
+.contact h1 {
+    font-weight: 600 !important;
+    font-size: 24px;
+    margin: 16px 0;
+}
+
+.contact img {
+    margin: 30px 0;
+    position: relative;
+    width: 450px;
+    height: 350px;
+    float: right;
+}
+
+/* Landing Page Styles */
+/* Default */
+.content {
+    position: relative;
+    width: 100%;
+}
+
+/* Header */
+.header {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background: #000;
+    color: #fff;
+}
+
+.header p {
+    color: #ebebeb;
+    padding: 16px 0;
+    font-size: 14px;
+}
+
+.header img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: -50px;
+    transition: all .5s;
+    float: right;
+}
+
+/* How it works */
+.brand-color {
+    color: rgba(179,33,46,1);
+}
+
+.how-it-works {
+    padding-top: 0;
+    padding-bottom: 100px;
+    /* background: #ebebeb; */
+    background: url(../img/tire_tracks.png) center no-repeat, rgba(220, 220, 220, 0.63);
+    background-size: cover;
+}
+
+.flat-tire {
+    width: 150px;
+    height: 180px;
+    margin-left: 50px;
+    margin-right: -100px;
+    padding-top: 40px;
+}
+
+.gradient {
+    width: 100%;
+    padding: 80px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.99) 60%, rgba(210, 210, 210, 0.63) 90%)
+}
+
+.gradient i {
+    font-size: 1.5rem;
+    margin-right: 8px;
+    margin-top: 12px;
+}
+
+gradient p {
+    font-size: 11px;
+}
+
+gradient h2 {
+    font-weight: 800 !important;
+    font-size: 16px;
+}
+
+.push-down {
+    z-index: 1;
+    margin-bottom: -60px;
+}
+
+.push-down span {
+    margin-right: 10px;
+}
+
+.push-down p {
+    font-size: 12px;
+    margin-left: 50px;
+    padding-bottom: 40px;
+}
+
+.push-down img {
+    width: 100%;
+    height: 90%;
+    margin-top: 50px;
+    margin-left: 80px;
+    transition: .5s;
+    z-index: 1;
+}
+
+.dark-bg {
+    background: #212121;
+    padding-left: 120px;
+    padding-top: 50px;
+    padding-right: 60px;
+}
+
+.ml-section {
+    background: #000;
+    padding-top: 250px;
+    padding-bottom: 60px;
+    margin-top: -150px !important;
+    color: #fff;
+}
+
+
+/* built for everyone */
+.built {
+    background: #261a2e;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.built img {
+    width: 100%;
+    height: 100%;
+}
+
+.built p {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+/* Team members */
+.team {
+    background: rgba(220, 220, 220, 0.63);
+    padding: 100px 0;
+}
+
+.team h2 {
+    font-weight: bold !important;
+    margin-top: 50px;
+}
+
+.team p {
+    font-size: 12px;
+}
+
+.team img {
+    /* position: relative; */
+    width: 95%;
+    height: 75%;
+    border-radius: 20px;
+    margin-bottom: 12px;
+}
+
+.team i {
+    size: 1rem;
+    margin-right: 16px;
+}
+
+/* Quick links */
+.quick-link {
+    padding: 40px;
+}
+
+.quick-link ul {
+    list-style-type: none;
+    margin-top: 12px;
+}
+
+.quick-link li {
+    margin-bottom: 10px;
+}
+
+.quick-link h4 {
+    font-weight: bold !important;
+}
+
+
+/* footer */
+.footer {
+    background: #000;
+    color: #fff;
+    padding: 16px 0;
+}
+
+.footer p {
+    font-size: 12px;
+}
