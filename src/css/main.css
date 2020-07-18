@@ -83,8 +83,8 @@
 
 .how-it-works {
     padding-top: 0;
-    padding-bottom: 100px;
-    height: 700px;
+    padding-bottom: 200px;
+    /* height: 700px; */
     /* background: #ebebeb; */
     background: url(../img/tire_tracks.png) center no-repeat, rgba(220, 220, 220, 0.63);
     background-size: cover;
@@ -144,23 +144,51 @@ gradient h2 {
     /* position: absolute; */
     width: 100%;
     height: 90%;
-    margin-top: 90px;
+    margin-top: 20px;
     margin-left: 150px;
     transition: .5s;
-    z-index: -1;
+    z-index: 1;
     left: 80px;
     top: 50px;
 }
 
 .dark-bg {
-    position: absolute;
+    /* position: absolute; */
     background: #212121;
     padding-left: 120px;
     padding-top: 50px;
     padding-right: 30px;
     left: 600px;
+    top: -350px;
     /* margin-right: 10px; */
 }
+
+
+
+.mobile {
+    position: relative;
+}
+
+.mobile img {
+    width: 100%;
+    height: 90%;
+}
+
+.dark-bg-m {
+    position: relative;
+    background: #212121;
+    padding: 20px 40px;
+}
+
+.dark-bg-m h3 {
+    font-size: 20px;
+}
+
+.dark-bg-m p {
+    font-size: 12px;
+}
+
+/* ML Section */
 
 .ml-section {
     background: #000;
@@ -191,12 +219,12 @@ gradient h2 {
 /* Team members */
 .team {
     background: rgba(220, 220, 220, 0.63);
-    padding: 100px 0;
+    padding: 80px 0;
 }
 
 .team h2 {
     font-weight: bold !important;
-    margin-top: 50px;
+    margin-top: 200px;
 }
 
 .team p {
@@ -260,35 +288,56 @@ gradient h2 {
 
 /* Media Queries */
 @media screen and (max-width:1199px){
-    .blog-btn-width {
-        width: 70%;
-        margin-top: 8px;
-    } 
+    
 }
 
 @media screen and (max-width:991px){
-    .blog-list-sidebar {
-        margin-left: 6px;
-    } 
+     
 }
 
 @media screen and (max-width:767px){
    
 }
 
-@media screen and (max-width:361px){
+@media screen and (max-width:485px){
     .push-down {
-        position: relative;
+        position: relative !important;
         z-index: 1;
-        margin-left: -40px;
+        /* margin-left: -40px !important; */
         /* margin-bottom: -60px; */
     } 
     .dark-bg {
-        position: relative;
+        position: relative !important;
         background: #212121;
-        padding-left: 60px;
-        padding-top: 30px;
-        padding-right: 60px;
+        padding-left: 60px !important;
+        padding-top: 30px !important;
+        padding-right: 60px !important;
         /* margin-right: 10px; */
+    }
+
+    .header h1 {
+        font-size: 18px !important;
+    }
+
+    .header p {
+        padding: 12px 0;
+        font-size: 11px;
+    }
+
+    .header button {
+        font-size: 11px;
+    }
+
+    .brand-btn {
+        font-size: 10px;
+    }
+
+    .how-it-works {
+        padding-bottom: 0;
+    }
+
+    .team h2 {
+        font-weight: bold !important;
+        margin-top: 0;
     }
 }
