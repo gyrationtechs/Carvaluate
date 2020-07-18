@@ -352,6 +352,12 @@ gradient h2 {
     }
 
     .btn-right {
-        top: 500px !important;
+        top: 650px !important;
     }
+    
+    .gradient {
+    width: 100%;
+    padding: 30px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.99) 60%, rgba(210, 210, 210, 0.63) 90%)
+}
 }
