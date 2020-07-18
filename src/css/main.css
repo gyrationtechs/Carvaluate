@@ -123,6 +123,14 @@ gradient h2 {
     font-size: 16px;
 }
 
+.btn-right {
+    position: absolute;
+    float: right;
+    top: 320px;
+    right: 50px;
+    /* padding: 12px 16px !important; */
+}
+
 .push-down {
     position: absolute;
     z-index: 1;
@@ -296,7 +304,9 @@ gradient h2 {
 }
 
 @media screen and (max-width:767px){
-   
+    .btn-right {
+        top: 500px !important;
+    }
 }
 
 @media screen and (max-width:485px){
@@ -339,5 +349,9 @@ gradient h2 {
     .team h2 {
         font-weight: bold !important;
         margin-top: 0;
+    }
+
+    .btn-right {
+        top: 500px !important;
     }
 }
